@@ -1,0 +1,15 @@
+GVP template is designed to parse SIP Server, ORS, and MCP logs. 
+You can load SIP server, ORS, and MCP logs at once.
+
+The logs messages that are processed:
+
+SIP Server - Tlib, SIP (INVITE, BYE)
+ORS - Workflow:  Enter, Exit, Transition
+MCP - Form Enter, SIP(INVITE, BYE)
+
+Ther are three keys lists:
+
+1.	GVP ID - shows messages from SIP Server & MCP logs
+2.	ORS ID - shows messages from SIP Server & ORS logs
+3.	MCP ID - shows MCP Form Enter
+
